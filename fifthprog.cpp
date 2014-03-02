@@ -1,3 +1,5 @@
+/*given a single(not sorted) linked list, and a value, delete the value from the
+ linked list. the value may exist or may not exist in the list*/
 #include<iostream>
 using namespace std;
 class linklist;

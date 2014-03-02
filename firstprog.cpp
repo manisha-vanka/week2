@@ -1,3 +1,5 @@
+/* given a number create a single linked list where each node has one digit in it. 
+your code need to have linked list created (not print 1->2->3 on the console). */
 #include<iostream>
 using namespace std;
 class linklist;
@@ -13,7 +15,7 @@ node *first;
 public:linklist()
 {
 first=NULL;}
-void insert();
+void insert(int x);
 void display();
 };
 void linklist::insert(int x)
